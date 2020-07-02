@@ -1,0 +1,6 @@
+.vscode/
+.env/
+bin/
+obj/
+
+.DS_STORE
