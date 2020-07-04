@@ -1,5 +1,5 @@
 # Overview
-This repository contains the code example from: 
+This repository contains the code example from [Deploy Sci-kit Learn models in .NET Core Applications](https://medium.com/@novackgm/deploy-sci-kit-learn-models-in-net-core-applications-90e24e572f64)
 
 # Running locally
 ## Training
