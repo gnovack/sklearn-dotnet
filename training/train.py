@@ -21,6 +21,6 @@ model = GradientBoostingRegressor(**model_parameters)
 model.fit(X_train, y_train)
 
 initial_type = [('float_input', FloatTensorType([None, 8]))]
-onx = convert_sklearn(model, initial_types=initial_type)
+onnx = convert_sklearn(model, initial_types=initial_type)
 with open("artifacts/california_housing.onnx", "wb") as f:
-    f.write(onx.SerializeToString())
+    f.write(onnx.SerializeToString())
